@@ -65,14 +65,8 @@ div {
   color: darkgoldenrod;
   text-align: center;
   
-  max-height: 0px;
-  overflow: hidden;
-  transition: all 500ms ease-out;
 }
 
-.js-panel {
-  max-height: 255px;
-}
 
 .panel h2 {
   margin: 0;
@@ -90,8 +84,8 @@ div {
 }
 
 .js-circle-bounce {
-  -webkit-animation: circle-bounce 1.2s linear;
-  animation: circle-bounce 1.2s linear;
+  -webkit-animation: circle-bounce 1s linear;
+  animation: circle-bounce 1s linear;
 }
 
 @-webkit-keyframes circle-bounce {

@@ -14,11 +14,11 @@ $btnShowHide.on('click', function (){
 });
 
 $btnMove.on('click', function () {
-		$diamond.toggleClass('js-diamond');
+    $diamond.toggleClass('js-diamond');
 });
 
 $btnCollapseExpand.on('click', function () {
-		$panel.toggleClass('js-panel');
+    $panel.animate({height: 'toggle'});
 });
 
 $btnBounce.on('click', function (){
