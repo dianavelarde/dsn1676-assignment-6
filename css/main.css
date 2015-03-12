@@ -67,7 +67,6 @@ div {
   
 }
 
-
 .panel h2 {
   margin: 0;
   padding: 3rem 0;
@@ -84,8 +83,8 @@ div {
 }
 
 .js-circle-bounce {
-  -webkit-animation: circle-bounce 1s linear;
-  animation: circle-bounce 1s linear;
+  -webkit-animation: circle-bounce 0.7s linear;
+  animation: circle-bounce 0.7s linear;
 }
 
 @-webkit-keyframes circle-bounce {
