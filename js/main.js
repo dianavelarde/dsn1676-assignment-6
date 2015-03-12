@@ -25,6 +25,10 @@ $btnBounce.on('click', function (){
 	$circle.addClass('js-circle-bounce');
 });
 
+$circle.on('webkitAnimationEnd animationed', function () {
+    $circle.removeClass('js-circle-bounce');
+});
+
 $btnAppend.on('click', function(){
 	var $li = $('<li>');
 	$li.html('New List Item');
