@@ -64,6 +64,14 @@ div {
 
   color: darkgoldenrod;
   text-align: center;
+  
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 500ms ease-out;
+}
+
+.js-panel {
+  max-height: 255px;
 }
 
 .panel h2 {
