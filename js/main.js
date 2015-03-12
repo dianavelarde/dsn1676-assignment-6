@@ -21,3 +21,6 @@ $btnCollapseExpand.on('click', function () {
 		$panel.toggleClass('js-panel');
 });
 
+$btnBounce.on('click', function (){
+	$circle.addClass('js-circle-bounce');
+});
