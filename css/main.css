@@ -48,6 +48,8 @@ div {
 
   background-color: hotpink;
   transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -webkit-transition: right 510ms;
   transition: all 510ms linear;
 }
 
@@ -60,10 +62,13 @@ div {
   top: 50%;
 
   background-color: yellow;
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 
   color: darkgoldenrod;
   text-align: center;
+  -webkit-transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
   
 }
 
