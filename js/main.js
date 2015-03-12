@@ -24,3 +24,10 @@ $btnCollapseExpand.on('click', function () {
 $btnBounce.on('click', function (){
 	$circle.addClass('js-circle-bounce');
 });
+
+$btnAppend.on('click', function(){
+	var $li = $('<li>');
+	$li.html('New List Item');
+	$list.prepend($li);
+	$li.addClass('js-list-down');
+});

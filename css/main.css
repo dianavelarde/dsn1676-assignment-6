@@ -90,27 +90,27 @@ div {
 }
 
 .js-circle-bounce {
-  -webkit-animation: circle-bounce 1.6s linear;
-  animation: circle-bounce 1.6s linear;
+  -webkit-animation: circle-bounce 1.2s linear;
+  animation: circle-bounce 1.2s linear;
 }
 
 @-webkit-keyframes circle-bounce {
 
 0%{
    top: calc(50% - 50px);
-   right: 2.5rem;
+   right: 3rem;
   }
   40% {
     top: calc(50% - 40px);
-    right: 3.5rem;
+    right: 4rem;
   }
   60% {
     top: calc(50% - 60px);
-    right:4.5rem;
+    right: 5rem;
   }
   100% {
     top: calc(50% - 40px);
-    right: 5.5rem;
+    right:6rem;
   }
 }
 
@@ -118,19 +118,19 @@ div {
 
 0%{
    top: calc(50% - 50px);
-   right: 2.5rem;
+   right: 3rem;
   }
   40% {
     top: calc(50% - 40px);
-    right: 3.5rem;
+    right: 4rem;
   }
   60% {
     top: calc(50% - 60px);
-    right:4.5rem;
+    right: 5rem;
   }
   100% {
     top: calc(50% - 40px);
-    right: 5.5rem;
+    right: 6rem;
   }
 }
 
