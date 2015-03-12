@@ -17,7 +17,7 @@ $btnMove.on('click', function () {
 		$diamond.toggleClass('js-diamond');
 });
 
-
 $btnCollapseExpand.on('click', function () {
 		$panel.toggleClass('js-panel');
 });
+
