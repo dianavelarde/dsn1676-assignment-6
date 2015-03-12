@@ -33,8 +33,12 @@ div {
   width: 200px;
 
   background-color: limegreen;
+  opacity: 0;
 }
 
+.js-btn-show-hide {
+  opacity: 2;
+}
 .diamond {
   height: 80px;
   right: 2em;
@@ -43,6 +47,11 @@ div {
 
   background-color: hotpink;
   transform: rotate(45deg);
+  transition: all 480ms linear;
+}
+
+.js-diamond {
+  right: 3.5em;
 }
 
 .panel {
